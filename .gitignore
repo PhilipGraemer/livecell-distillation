@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+.venv/
+venv/
+.idea/
+.vscode/
+*.swp
+*.swo
+.pytest_cache/
+htmlcov/
+.coverage
+.mypy_cache/
+
+# Data and model artifacts (large, do not commit)
+*.h5
+*.hdf5
+*.pth
+*.pkl
+*.pt
+
+# Output directories
+output/
+exports/
+reports/
+
+# SLURM logs
+slurm-*.out
