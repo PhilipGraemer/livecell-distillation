@@ -89,10 +89,12 @@ python scripts/distill.py \
 
 | Teacher | Student | Student F1 |
 |---|---|---|
-| N/A (Baseline) | EfficientNet-B0 | **91.87%** |
+| N/A (Baseline) | EfficientNet-B0 | **91.76%** |
 | EVA-02 | EfficientNet-B0 | **92.67%** |
-| EfficientNet-B5 | EfficientNet-B0 | 91.23% |
+| EfficientNet-B5 | EfficientNet-B0 | **92.18%** |
 | 3×EVA-02 council | EfficientNet-B0 | **93.42%** |
+| 2×EVA-02 + 1x EN-B5 council | EfficientNet-B0 | **93.00%** |
+
 
 ## Repository structure
 
