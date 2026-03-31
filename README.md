@@ -126,10 +126,10 @@ This codebase is meant to be intentionally **didactic**, every module is comment
 
 Key decisions documented inline:
 
-- **Offline distillation** — why we cache teacher logits rather than running the teacher at train time (efficiency, sweep flexibility, memory)
-- **T² scaling** — why the temperature squared factor is necessary in the loss to compensate for gradient magnitude reduction
-- **Model selection by accuracy, not distillation loss** — why we use standard CE for validation rather than the distillation loss
-- **Logit-space averaging for councils** — why we average logits rather than probabilities
+- **Offline distillation** > why we cache teacher logits rather than running the teacher at train time (efficiency, sweep flexibility, memory)
+- **T² scaling** > why the temperature squared factor is necessary in the loss to compensate for gradient magnitude reduction
+- **Model selection by accuracy, not distillation loss** > why we use standard CE for validation rather than the distillation loss
+- **Logit-space averaging for councils** > why we average logits rather than probabilities
 
 ## Tests
 
