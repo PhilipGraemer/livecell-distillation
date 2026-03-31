@@ -30,7 +30,7 @@ pip install -e ".[dev]"
 
 ## Usage
 
-The pipeline has two steps: cache teacher logits, then train the student.
+The pipeline has two steps: cache teacher logits, then train the student. Exploratory temperature sweeps identified temperature 3 and 4 as optimal, but temperature can be modified via --temperatures in Step 2.
 
 ### Step 1: Cache teacher logits
 
