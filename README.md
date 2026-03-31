@@ -6,7 +6,7 @@ Part of the [LIVECell classification benchmark](https://github.com/PhilipGraemer
 
 ## Key finding
 
-**A weaker teacher can be a better teacher.** EVA-02 (92.26% macro F1) outperforms EfficientNet-B5 (93.53%) when distilling into EfficientNet-B0 — cross-architecture teaching transfers richer representations than same-family teaching despite lower raw accuracy. A pure 3×EVA-02 council achieves 93.42%.
+**A weaker teacher can be a better teacher.** EVA-02 (92.26% macro F1) outperforms EfficientNet-B5 (93.53%) when distilling into EfficientNet-B0 - cross-architecture teaching transfers richer representations than same-family teaching despite lower raw accuracy. A pure 3×EVA-02 council achieves 93.42%.
 
 ## Method
 
@@ -85,11 +85,12 @@ python scripts/distill.py \
     --output-dir output/distillation_enb5/enb0_results
 ```
 
-## Distillation configurations
+## Previous findings to replicate
 
 | Teacher | Student | Student F1 |
 |---|---|---|
-| EVA-02 (ViT-L/14) | EfficientNet-B0 | **91.87%** |
+| N/A (Baseline) | EfficientNet-B0 | **91.87%** |
+| EVA-02 | EfficientNet-B0 | **92.67%** |
 | EfficientNet-B5 | EfficientNet-B0 | 91.23% |
 | 3×EVA-02 council | EfficientNet-B0 | **93.42%** |
 
