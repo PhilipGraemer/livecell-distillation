@@ -122,7 +122,7 @@ python scripts/distill.py \
 
 ## Design notes
 
-This codebase is intentionally **didactic** — every module is commented to explain *why* each design choice was made, not just *what* the code does.
+This codebase is meant to be intentionally **didactic**, every module is commented to explain *why* each design choice was made.
 
 Key decisions documented inline:
 
